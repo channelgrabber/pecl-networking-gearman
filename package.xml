@@ -16,11 +16,11 @@
   <email>hradtke@php.net</email>
   <active>yes</active>
  </lead>
- <date>2021-01-16</date>
- <time>22:00:00</time>
+ <date>2023-01-30</date>
+ <time>08:17:15</time>
  <version>
-  <release>2.1.0</release>
-  <api>2.1.0</api>
+  <release>2.1.1</release>
+  <api>2.1.1</api>
  </version>
  <stability>
   <release>stable</release>
@@ -28,7 +28,7 @@
  </stability>
  <license uri="http://www.php.net/license">PHP</license>
  <notes>
-PHP 8.0.x is now supported
+PHP 8.2.x is now supported
  </notes>
  <contents>
   <dir name="/">
@@ -139,7 +139,7 @@ PHP 8.0.x is now supported
   <required>
    <php>
     <min>7.0.0</min>
-    <max>8.1.99</max>
+    <max>8.3.99</max>
     <exclude>6.0.0</exclude>
    </php>
    <pearinstaller>
@@ -150,6 +150,21 @@ PHP 8.0.x is now supported
  <providesextension>gearman</providesextension>
  <extsrcrelease />
  <changelog>
+
+  <release>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <version>
+    <release>2.1.1</release>
+    <api>2.1.1</api>
+   </version>
+   <date>2023-01-30</date>
+   <notes>
+    - PHP 8.2 Support
+   </notes>
+  </release>
 
   <release>
    <stability>
